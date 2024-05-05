@@ -1,15 +1,18 @@
 //npm modules
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
 
 //css
 import './NavBar.css'
 
 const NavBar = () => {
   return ( 
-
-    <NavLink>
-      
-    </NavLink>
+    <header>
+      <nav>
+        <NavLink>
+          <Link to='/'>STAR WARS STARSHIPS</Link>
+        </NavLink>
+      </nav>
+    </header>
 
   )
 }
