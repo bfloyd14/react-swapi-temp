@@ -1,0 +1,7 @@
+.starship-card {
+background-color: black;
+font-weight: bold;
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
